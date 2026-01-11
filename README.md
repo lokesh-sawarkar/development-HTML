@@ -1,3 +1,44 @@
+# Project Requirements
+
+The topic of your interest
+
+Content in English only
+
+The page should use only HTML5 tags and CSS3 Styles
+
+Should have a Fixed Top Navigation
+
+Should include a logo (if you don't have a custom logo, please use the Quadyster logo)
+
+Left-side navigation is optional
+
+The footer should include  Copyright, Contact Info, and Social Media links similar to the Quadyster website.
+
+Should include at least one video, a few size-optimized pictures/photos, etc. for faster rendering.
+
+Include at least one scrollable photo album with a minimum of 2 photos.
+
+The home page is mandatory
+
+Additional pages are optional but navigation links can be non-executable.
+
+Choose a standard color scheme.
+
+All styles should be defined in a separate CSS file.
+
+You may use normalize.css to reset the browser's default styles.
+
+You may include an optional feedback form.
+
+Validate:
+
+Validate the website code using the URL:  https://validator.w3.org/  and  https://jigsaw.w3.org/css-validator/
+
+If any errors need to be fixed.  Some warnings are acceptable.
+
+Note: The topic should not of political or religious nature
+
+
 # Feasto – Online Food Ordering Site
 
 Simple static website for the **Feasto** food ordering service built with HTML and CSS.
