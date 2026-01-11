@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Feasto</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/feedback.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header id="navbar">
+    <div class="nav-left">
+        <a href="index.html" class="nav-brand">
+            <img src="images/feasto.jpg" alt="Feasto" class="nav-logo">
+        </a>
+    </div>
+
+    <ul class="nav-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#carousel-section">Popular</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</header>
+
+<!-- ================= FEEDBACK CARD ================= -->
+<div class="feedback-wrapper" id="feedback">
+    <div class="feedback-card">
+        <h2>Thank You for Your Order 🍔</h2>
+        <p>Your feedback helps us improve our service</p>
+
+        <form action="feedback.html" method="get">
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Write your feedback..." required></textarea>
+
+            <div class="stars">
+                <input type="radio" id="s5" name="rate" required>
+                <label for="s5">★</label>
+
+                <input type="radio" id="s4" name="rate">
+                <label for="s4">★</label>
+
+                <input type="radio" id="s3" name="rate">
+                <label for="s3">★</label>
+
+                <input type="radio" id="s2" name="rate">
+                <label for="s2">★</label>
+
+                <input type="radio" id="s1" name="rate">
+                <label for="s1">★</label>
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <p class="thanks">Thank you for your feedback 😊</p>
+
+        <a href="index.html#home" class="back-home">← Go Back to Home</a>
+    </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer id="footer">
+    <div class="footer-container">
+
+        <div class="footer-box" id="about">
+            <h3>About Us</h3>
+            <p>
+                Feasto delivers fresh & tasty food from top restaurants with fast service and great quality.
+            </p>
+        </div>
+
+        <div class="footer-box contact-us" id="contact">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-location-dot"></i> Nagpur, Maharashtra</p>
+            <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            <p><i class="fas fa-envelope"></i> support@feasto.com</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f fb"></i>
+                <i class="fab fa-instagram ig"></i>
+                <i class="fab fa-youtube yt"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Feasto | All Rights Reserved
+    </div>
+</footer>
+
+</body>
+</html>
